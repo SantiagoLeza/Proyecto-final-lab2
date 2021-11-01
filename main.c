@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("xd\n");
+    printf("xdn't\n");
     return 0;
 }
