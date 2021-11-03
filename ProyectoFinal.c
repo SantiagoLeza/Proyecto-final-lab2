@@ -34,17 +34,20 @@ registroJuego crearRegistro()
 
     dato.idJuego = cantJuegosArchi(nombreArchiJuegos);
 
-    printf("Ingrese el nombre del juego.\n");
+    printf("\n Ingrese el nombre del juego: ");
     fflush(stdin);
     gets(dato.nombre);
 
     int i;
-    printf("Ingrese el numero correspondiente al genero.\n");
-    printf("1.Accion     2.Simulacion\n");
-    printf("3.Deportes   4.Supervivencia\n");
-    printf("5.Estrategia 6.Otro \n");
 
     int check;
+
+    int col=0;
+
+    printf("\n Ingrese el numero correspondiente al genero principal.\n");
+    printf("  1.Accion     2.Simulacion\n");
+    printf("  3.Deportes   4.Supervivencia\n");
+    printf("  5.Estrategia 6.Otro \n");
 
     do
     {
@@ -54,27 +57,34 @@ registroJuego crearRegistro()
         {
             case 1:
                 strcpy(dato.genero, Accion); //utilizao macros para poder utilizar los string exactamente igual mas adelnate
+
                 break;
 
             case 2:
                 strcpy(dato.genero, Simulacion);
+
                 break;
 
             case 3:
                 strcpy(dato.genero, Deportes);
+
                 break;
 
             case 4:
                 strcpy(dato.genero, Supervivencia);
+
                 break;
 
             case 5:
                 strcpy(dato.genero, Estrategia);
+
                 break;
 
             case 6:
                 strcpy(dato.genero, Otro);
+
                 break;
+
 
             default:
                 MessageBox(NULL, "Opcion no valida, intente nuevamente", "ERROR", MB_OK | MB_ICONERROR);
@@ -83,12 +93,65 @@ registroJuego crearRegistro()
         }
 
     }
-    while(check == 0);
+    while(check == 0 );
 
-    printf("Ingrese el valor del juego: \n");
+    printf("\n Ingrese el numero correspondiente a los subgeneros.\n");
+    printf("  1.Accion     2.Simulacion\n");
+    printf("  3.Deportes   4.Supervivencia\n");
+    printf("  5.Estrategia 6.Otro \n");
+
+
+    do
+    {
+        check = 1;
+        scanf("%d", &i);
+        switch(i)
+        {
+            case 1:
+                strcpy(dato.subgeneros[col], Accion); //utilizao macros para poder utilizar los string exactamente igual mas adelnate
+                col++;
+                break;
+
+            case 2:
+                strcpy(dato.subgeneros[col], Simulacion);
+                col++;
+                break;
+
+            case 3:
+                strcpy(dato.subgeneros[col], Deportes);
+                col++;
+                break;
+
+            case 4:
+                strcpy(dato.subgeneros[col], Supervivencia);
+                col++;
+                break;
+
+            case 5:
+                strcpy(dato.subgeneros[col], Estrategia);
+                col++;
+                break;
+
+            case 6:
+                strcpy(dato.subgeneros[col], Otro);
+                col++;
+                break;
+
+
+            default:
+                MessageBox(NULL, "Opcion no valida, intente nuevamente", "ERROR", MB_OK | MB_ICONERROR);
+                check = 0;
+                break;
+        }
+
+    }
+    while(check == 0 || col < 2);
+
+
+    printf("\n Ingrese el valor del juego: ");
     scanf("%d", &dato.precio);
 
-    printf("Ingrese la valoracion del 1 al 5.\n");
+    printf("\n Ingrese la valoracion del 1 al 5: ");
     do
     {
         i=0;
@@ -103,7 +166,7 @@ registroJuego crearRegistro()
         }
         else
         {
-            MessageBox(NULL, "Opcion no valida, intente nuevamente", "ERROR", MB_OK | MB_ICONERROR);
+            MessageBox(NULL, "\n Opcion no valida, intente nuevamente", "ERROR", MB_OK | MB_ICONERROR);
         }
     }
     while(check == 0);
@@ -138,3 +201,120 @@ int cantJuegosArchi(char archivo[])
 }
 
 /////////////////////////////////////////////////////////////////
+
+nodoLista* crearNodo (registroJuego dato)
+{
+    nodoLista* aux= (nodoLista*)malloc(sizeof(nodoLista));
+
+    aux->dato= dato;
+    aux->sig= NULL;
+
+    return aux;
+}
+
+void MostrarJuegoAdmin (registroJuego dato)
+{
+    int i=0;
+
+    printf("\n--------------------------------- \n");
+
+    printf(" \n ID: %i", dato.idJuego);
+
+    printf(" \n Nombre: %s", dato.nombre);
+
+    printf(" \n Genero principal: %s", dato.genero);
+
+    ////////////////////////////////////////////////////
+
+    printf("\n Subgeneros: ");
+
+    for (i=0; i<2; i++)
+    {
+        printf("[%s] ", dato.subgeneros[i]);
+
+    }
+    ////////////////////////////////////////////////////
+
+
+    printf(" \n Precio: %i", dato.precio);
+
+    printf(" \n Valoracion: %i", dato.valoracion);
+
+    printf(" \n Cantidad de ventas: %i", dato.cantVentas);
+
+    printf(" \n Estado: [%i]", dato.estado);
+
+}
+
+void MostrarJuegoUsuario (registroJuego dato)
+{
+    int i=0;
+
+    printf("\n\n--------------------------------- ");
+
+    printf(" \n |Nombre: %s", dato.nombre);
+
+    printf(" \n |Genero principal: %s", dato.genero);
+
+    ////////////////////////////////////////////////////
+
+    printf("\n |Subgeneros: ");
+
+    for (i=0; i<2; i++)
+    {
+        printf("[%s] ", dato.subgeneros[i]);
+
+    }
+    /////////////////////////////////////////////////////
+
+    printf(" \n |Precio: %i", dato.precio);
+
+    printf(" \n |Valoracion: %i", dato.valoracion);
+
+    printf("\n--------------------------------- \n");
+
+}
+
+void MostrarNodoAdmin (nodoLista* lista)
+{
+    if ( lista != NULL )
+    {
+        nodoLista* seguidora= lista;
+
+        while ( seguidora !=NULL )
+        {
+            MostrarJuegoAdmin(seguidora->dato);
+            seguidora= seguidora->sig;
+        }
+    }
+}
+
+void MostrarNodoUsuario (nodoLista* lista)
+{
+    if ( lista != NULL )
+    {
+        nodoLista* seguidora= lista;
+
+        while ( seguidora !=NULL )
+        {
+            MostrarJuegoUsuario(seguidora->dato);
+            seguidora= seguidora->sig;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
