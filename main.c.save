@@ -1,19 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
+#include "ProyectoFinal.h"
 
-#define nombreApp "estim"
+////////////////////////////////////////////////////////////////
 
 int main()
 {
-    int retorno = MessageBox(NULL, "Acepte terminos y condiciones\nAl aceptar el contrato acepta que:\n-satanás posea su alma para el resto de la eternidad.\n-se usen sus datos privados para venderlos por la deep web.\n-no se ha bañado en más de una semana", nombreApp, MB_OKCANCEL );
+    cargarJuegosAlArchivo(nombreArchiJuegos);
 
-    while(retorno == IDCANCEL)
-    {
-        retorno = MessageBox(NULL, "Acepte terminos y condiciones para continuar\n", nombreApp, MB_OKCANCEL );
-    }
-
-    system("pause");
     return 0;
 }
 
+////////////////////////////////////////////////////////////////

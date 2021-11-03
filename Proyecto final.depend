@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1635881520 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\main.c
+1635954794 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\main.c
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>
+	"ProyectoFinal.h"
 
 1635878322 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\ventana.c
 	<windows.h>
@@ -12,5 +13,11 @@
 	<stdlib.h>
 	<windows.h>
 
-1635880648 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\proyectofinal.c
+1635954766 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1635954748 c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\proyectofinal.h
 
