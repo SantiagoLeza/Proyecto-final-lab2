@@ -200,25 +200,11 @@ int cantJuegosArchi(char archivo[])
     return i;
 }
 
-<<<<<<< HEAD
 ///////////////////////////////////////////////////////////
 
                         ///Funcion mostrar
 
 ///////////////////////////////////////////////////////////
-=======
-/////////////////////////////////////////////////////////////////
-
-nodoLista* crearNodo (registroJuego dato)
-{
-    nodoLista* aux= (nodoLista*)malloc(sizeof(nodoLista));
-
-    aux->dato= dato;
-    aux->sig= NULL;
-
-    return aux;
-}
->>>>>>> 00fcf1b0e661c5e0666e09a7a580a9333de74d75
 
 void MostrarJuegoAdmin (registroJuego dato)
 {
@@ -283,7 +269,6 @@ void MostrarJuegoUsuario (registroJuego dato)
 
 }
 
-<<<<<<< HEAD
 
 
 ///////////////////////////////////////////////////////////
@@ -308,8 +293,6 @@ nodoLista* crearNodo (registroJuego dato)
 }
 
 
-=======
->>>>>>> 00fcf1b0e661c5e0666e09a7a580a9333de74d75
 void MostrarNodoAdmin (nodoLista* lista)
 {
     if ( lista != NULL )
@@ -338,7 +321,6 @@ void MostrarNodoUsuario (nodoLista* lista)
     }
 }
 
-<<<<<<< HEAD
 ///////////////////////////////////////////////////////////
 
                         ///Funciones cliente
@@ -383,6 +365,14 @@ stCliente RegistrarCliente ()
             fflush(stdin);
             gets(contra2);
 
+            while (strcmp(contra1, contra2) != 0)
+            {
+                printf("\n No coincide, ingresela nuevamente: ");
+                fflush(stdin);
+                gets(contra2);
+            }
+
+            flag=1
 
         }
     }
@@ -489,8 +479,6 @@ nodoBiblioteca* CrearNodoArbol (registroJuego datito)
 
 
 
-=======
->>>>>>> 00fcf1b0e661c5e0666e09a7a580a9333de74d75
 
 
 
