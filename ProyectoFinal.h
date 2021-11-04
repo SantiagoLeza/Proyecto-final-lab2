@@ -66,10 +66,17 @@ typedef struct
 typedef struct
 {
     registroJuego dato;
+<<<<<<< HEAD
     struct nodoBiblioteca *der;
     struct nodoBiblioteca *izq;
 
 }nodoBiblioteca;
+=======
+    struct arbolNodo *der;
+    struct arbolNodo *izq;
+
+}arbolNodo;
+>>>>>>> 00fcf1b0e661c5e0666e09a7a580a9333de74d75
 
 ////////////////////////////////////////////////
 
@@ -77,16 +84,22 @@ void cargarJuegosAlArchivo(char archivo[]);
 registroJuego crearRegistro();
 int cantJuegosArchi(char archivo[]);
 nodoLista* crearNodo (registroJuego dato);
+<<<<<<< HEAD
 nodoLista* inicNodo();
+=======
+>>>>>>> 00fcf1b0e661c5e0666e09a7a580a9333de74d75
 void MostrarJuegoAdmin (registroJuego dato);
 void MostrarJuegoUsuario (registroJuego dato);
 void MostrarNodoAdmin (nodoLista* lista);
 void MostrarNodoUsuario (nodoLista* lista);
+<<<<<<< HEAD
 nodoBiblioteca* inicArbol ();
 nodoBiblioteca* CrearNodoArbol (registroJuego datito);
 void cargarClientesAlArchivo(char archivo[]);
 int cantClientesArchi(char archivo[]);
 stCliente RegistrarCliente ();
+=======
+>>>>>>> 00fcf1b0e661c5e0666e09a7a580a9333de74d75
 
 ////////////////////////////////////////////////
 
