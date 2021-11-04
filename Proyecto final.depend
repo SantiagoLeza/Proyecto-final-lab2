@@ -21,3 +21,22 @@
 
 1635954748 c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\proyectofinal.h
 
+1635960774 source:c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\colores.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1636050209 source:c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1636049656 c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\proyectofinal.h
+
+1636050231 source:c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
