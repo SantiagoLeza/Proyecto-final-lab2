@@ -1,0 +1,261 @@
+# depslib dependency file v1.0
+1635954794 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1635878322 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\ventana.c
+	<windows.h>
+
+1635878844 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\colores.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1635954766 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1635954748 c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto final\proyectofinal.h
+
+1635960774 source:c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\colores.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1635972316 D
+
+1635972316 source:c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\proyectofinal.c
+
+1635965348 cf1b0e661c5e0666e09a7a580a9333de74d75
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1635971563 c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\proyectofinal.h
+
+1635965348 source:c:\users\tuki2\onedrive\escritorio\tp final\proyecto-final-lab2\main.c
+
+1635960774 source:c:\users\tuki2\onedrive\escritorio\copia tp final\proyecto-final-lab2\colores.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1637033254 source:c:\users\tuki2\onedrive\escritorio\copia tp final\proyecto-final-lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1637033254 c:\users\tuki2\onedrive\escritorio\copia tp final\proyecto-final-lab2\proyectofinal.h
+
+1637033235 source:c:\users\tuki2\onedrive\escritorio\copia tp final\proyecto-final-lab2\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1636829187 source:c:\users\tuki2\onedrive\escritorio\copia tp final\proyecto-final-lab2\balancearboles.c
+	"balanceArboles.h"
+	<stdio.h>
+	<stdlib.h>
+	"ProyectoFinal.h"
+	<windows.h>
+
+1636829186 c:\users\tuki2\onedrive\escritorio\copia tp final\proyecto-final-lab2\balancearboles.h
+	"ProyectoFinal.h"
+
+1635960774 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\colores.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1637177547 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+
+1637177384 c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\proyectofinal.h
+
+1637091877 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\balancearboles.c
+	"balanceArboles.h"
+	<stdio.h>
+	<stdlib.h>
+	"ProyectoFinal.h"
+	<windows.h>
+
+1637091872 c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\balancearboles.h
+	"ProyectoFinal.h"
+
+1637177005 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+	"inicio.h"
+
+1637093487 c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\inicio.h
+
+1491400448 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1637094083 source:c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\inicio.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"inicio.h"
+	"gotoxy.h"
+
+1491399894 c:\users\santiago leza\onedrive\documentos\utn\2°cuat\prog y lab\proyecto-final-lab2\gotoxy.h
+
+1637091877 source:c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\balancearboles.c
+	"balanceArboles.h"
+	<stdio.h>
+	<stdlib.h>
+	"ProyectoFinal.h"
+	<windows.h>
+
+1637091872 c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\balancearboles.h
+	"ProyectoFinal.h"
+
+1637183766 c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\proyectofinal.h
+
+1491400448 source:c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1637094083 source:c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\inicio.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"inicio.h"
+	"gotoxy.h"
+
+1637093487 c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\inicio.h
+
+1491399894 c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\gotoxy.h
+
+1637184189 source:c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+	"inicio.h"
+
+1637183970 source:c:\users\tuki2\onedrive\escritorio\proyecto-final-lab2\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+
+1637190702 source:c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\balancearboles.c
+	"balanceArboles.h"
+	<stdio.h>
+	<stdlib.h>
+	"ProyectoFinal.h"
+	<windows.h>
+
+1637190058 c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\balancearboles.h
+	"ProyectoFinal.h"
+
+1637211061 c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\proyectofinal.h
+
+1491400448 source:c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1637211061 source:c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\inicio.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"inicio.h"
+	"gotoxy.h"
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+
+1637205660 c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\inicio.h
+	"balanceArboles.h"
+	"ProyectoFinal.h"
+
+1491399894 c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\gotoxy.h
+
+1637210520 source:c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+	"inicio.h"
+	"time.h"
+
+1637211061 source:c:\users\santiago leza\onedrive\escritorio\proyecto-final-lab2\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+
+1637211363 source:c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\balancearboles.c
+	"balanceArboles.h"
+	<stdio.h>
+	<stdlib.h>
+	"ProyectoFinal.h"
+	<windows.h>
+
+1637190058 c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\balancearboles.h
+	"ProyectoFinal.h"
+
+1637211061 c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\proyectofinal.h
+
+1491400448 source:c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1637210520 source:c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+	"inicio.h"
+	"time.h"
+
+1637205660 c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\inicio.h
+	"balanceArboles.h"
+	"ProyectoFinal.h"
+
+1637211061 source:c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\proyectofinal.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+
+1637244500 source:c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\inicio.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"inicio.h"
+	"gotoxy.h"
+	"ProyectoFinal.h"
+	"balanceArboles.h"
+
+1491399894 c:\users\santiago leza\onedrive\escritorio\tp final leza delgado\proyecto-final-lab2\gotoxy.h
+
